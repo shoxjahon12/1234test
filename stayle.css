@@ -1,0 +1,139 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	scroll-behavior: smooth;
+}
+
+header {
+	width: 100%;
+	height: 10vh;
+	background-color: #333;
+}
+
+nav a {
+	padding: 15px;
+	display: inline-block;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 10px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 10px;
+	transition: 0.3s ease;
+}
+
+nav a:hover {
+	background-color: #ff4d00;
+}
+
+#home {
+	background-image: url('https://www.hdwallpapers.in/download/orange_mclaren_artura_trophy_2022_car_4k_5k_2_hd_cars-1280x720.jpg');
+	background-size: cover;
+	height: 90vh;
+}
+
+#home > div > h1 {
+	font-size: 40px;
+	text-align: center;
+}
+
+#home > div {
+	width: 70%;
+	margin-inline: auto;
+	color: #ff4d00;
+	padding-top: 50px;
+}
+
+#about {
+	background-color: #333;
+	padding: 20px 0px;
+}
+
+.about_title {
+	text-align: center;
+	color: #ff4d00;
+	font-size: 30px;
+	padding-top: 30px;
+}
+
+#about img {
+	width: 400px;
+}
+
+.about_img {
+	display: inline-block;
+}
+
+.container {
+	width: 90%;
+	margin-inline: auto;
+}
+
+.about_text {
+	display: inline-block;
+	width: 50%;
+	margin-left: 100px;
+	color: #fff;
+}
+
+#cars {
+	background-color: #222;
+	padding: 25px 0px;
+}
+
+.cars_title {
+	text-align: center;
+	color: #ff4d00;
+	font-size: 30px;
+	padding-top: 30px;
+}
+
+.card {
+	display: inline-block;
+	width: 380px;
+	margin: 10px;
+	border: 2px solid #ff4d00;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.card > h3 {
+	color: #fff;
+	font-size: 35px;
+}
+
+.card > a {
+	text-decoration: none;
+	color: #ff4d00;
+	padding: 5px;
+	display: inline-block;
+	border-radius: 10px;
+	transition: 0.3s ease;
+}
+
+.card > a:hover {
+	background-color: #fff;
+}
+
+.card > img {
+	width: 100%;
+	height: 220px;
+	border-radius: 10px;
+}
+
+footer {
+	height: 8vh;
+	background-color: #ff4d00;
+}
+
+footer h3 {
+	padding-top: 20px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #222;
+	font-size: 20px;
+}
